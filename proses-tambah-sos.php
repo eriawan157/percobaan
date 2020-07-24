@@ -28,9 +28,9 @@
 		
         $query = mysqli_query($conn,$sql);
         if ($query) {
-			header('Location:fm_sosialisasi.php?status=sukses');
+			header('Location:fm_sosialisasi.html?status=sukses');
 		}else {
-			header('Location:fm_sosialisasi.php?status=gagal');
+			header('Location:fm_sosialisasi.html?status=gagal');
 		}
 	}else{
 		die("Akses dilarang. . .");
